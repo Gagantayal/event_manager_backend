@@ -14,7 +14,7 @@ const app = express();
 
 // CORS Configuration
 app.use(cors({
-    origin: 'http://localhost:5500', // Replace with your frontend URL
+    origin: 'virtual-event-manager.netlify.app', // Replace with your frontend URL
     credentials: true,
 }));
 
